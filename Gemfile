@@ -11,6 +11,7 @@ gem "sprockets-rails"
 gem 'jquery-rails'
 
 gem 'devise'
+gem 'bootstrap_form'
 
 # Add a bootstrap-sass gem to the Gemfile
 # sass-rails gem
