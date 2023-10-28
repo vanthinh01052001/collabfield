@@ -10,6 +10,8 @@ gem "sprockets-rails"
 # add jquery-rails gem.
 gem 'jquery-rails'
 
+gem 'devise'
+
 # Add a bootstrap-sass gem to the Gemfile
 # sass-rails gem
 gem 'bootstrap-sass', '~> 3.3.6'
