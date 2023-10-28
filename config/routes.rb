@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   devise_scope :user do
     get 'login', to: 'devise/sessions#new'
+    get 'signup', to: 'devise/registrations#new'
   end
   # root "posts#index"
 end
