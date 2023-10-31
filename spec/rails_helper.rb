@@ -8,14 +8,6 @@ require File.expand_path('../config/environment', __dir__)
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'rspec/rails'
 
-require 'capybara/poltergeist'
-require 'factory_girl_rails'
-require 'capybara/rspec'
-
-config.include Devise::Test::IntegrationHelpers, type: :feature
-config.include FactoryGirl::Syntax::Methods
-Capybara.javascript_driver = :poltergeist
-Capybara.server = :puma 
 
 begin
   ActiveRecord::Migration.maintain_test_schema!
@@ -51,6 +43,14 @@ RSpec.configure do |config|
     DatabaseCleaner.clean
   end
 
+  require 'capybara/poltergeist'
+  require 'factory_girl_rails'
+  require 'capybara/rspec'
+
+  config.include Devise::Test::IntegrationHelpers, type: :feature
+  config.include FactoryGirl::Syntax::Methods
+  Capybara.javascript_driver = :poltergeist
+  Capybara.server = :puma 
   # RSpec Rails can automatically mix in different behaviours to your tests
   # based on their file location, for example enabling you to call `get` and
   # `post` in specs under `spec/controllers`.
