@@ -28,6 +28,7 @@ gem 'headless'
 gem 'capybara'
 gem 'poltergeist'
 gem 'database_cleaner'
+gem 'phantomjs', :require => 'phantomjs/poltergeist'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
