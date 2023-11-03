@@ -12,7 +12,7 @@ gem 'jquery-rails'
 
 gem 'devise'
 gem 'bootstrap_form'
-
+gem 'faker'
 # Add a bootstrap-sass gem to the Gemfile
 # sass-rails gem
 gem 'bootstrap-sass', '~> 3.3.6'
