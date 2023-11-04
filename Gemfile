@@ -18,6 +18,7 @@ gem 'faker'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
 
+gem 'will_paginate', '~> 4.0'
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
