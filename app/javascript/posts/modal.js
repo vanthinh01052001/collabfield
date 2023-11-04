@@ -8,9 +8,8 @@ document.addEventListener('turbo:load', function() {
       const posted_by = post.querySelector('.post-content .posted-by').textContent;
       const post_heading = post.querySelector('.post-content h3').textContent;
       const post_content = post.querySelector('.post-content p').textContent;
-      const interestedElement = post.querySelector('.post-content .interested a');
-      const interested = interestedElement ? interestedElement.getAttribute('href') : '';
-      
+      const interestedElement = post.querySelector('.post-content .interested');
+      const interested = interestedElement ? interestedElement.getAttribute('href') : '';   
 
       // Update the modal content
       const modalHeader = document.querySelector('.modal-header');
