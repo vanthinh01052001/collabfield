@@ -1,6 +1,4 @@
-console.log('running...')
 document.addEventListener('turbo:load', function() {
-    console.log('running $$$...');
     if (document.querySelectorAll(".single-post-card").length) {
         // set a solid background color style
         if (mode == 1) {  
