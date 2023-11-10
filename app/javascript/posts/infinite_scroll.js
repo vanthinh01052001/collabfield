@@ -1,5 +1,4 @@
 $(document).on('turbo:load', function() {
-  console.log('running')
   var isLoading = false;
   if ($('.infinite-scroll').length > 0) {
     $(window).on('scroll', function() {

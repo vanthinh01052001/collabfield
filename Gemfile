@@ -21,9 +21,7 @@ gem 'sass-rails', '>= 3.2'
 gem 'will_paginate', '~> 4.0'
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
-
-gem 'rspec-rails', '~> 3.6'
-gem 'factory_girl_rails'
+gem 'gon', '~> 6.4'
 gem 'rails-controller-testing'
 gem 'headless'
 gem 'capybara'
