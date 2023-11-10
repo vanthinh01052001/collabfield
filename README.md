@@ -1,11 +1,9 @@
 Main functionalities which the app will have:
-      Authentication (with Devise)
+      Authentication (with Devise)      
       + SIGN UP:
       ![image](https://github.com/vanthinh01052001/collabfield/assets/93653924/ae51539b-8205-4035-9c34-b5b9bba9ecd9)
       + LOG IN:
       ![image](https://github.com/vanthinh01052001/collabfield/assets/93653924/6ee8e727-88b2-42fb-8f7c-9a8de80cb2d7)
-
-
       Ability to publish posts
       + INDEX:
       ![image](https://github.com/vanthinh01052001/collabfield/assets/93653924/e47301ce-6ec2-4c34-926a-3691a29de520)
@@ -15,12 +13,9 @@ Main functionalities which the app will have:
       ![image](https://github.com/vanthinh01052001/collabfield/assets/93653924/fa78ccfd-8b35-45e3-b8ae-eaf95b01b085)
       + REVIEW A POST:
       ![image](https://github.com/vanthinh01052001/collabfield/assets/93653924/acc317d5-8986-41df-b22f-cfa7845b6af7)
-
-
       Search Posts
       + SEARCH POST:
       ![image](https://github.com/vanthinh01052001/collabfield/assets/93653924/294f6ce6-f284-433a-9816-ed42ee1c6fcd)
-
       Categorize Posts:
       + POSTS HOBBY:
       ![image](https://github.com/vanthinh01052001/collabfield/assets/93653924/cdfbce8e-c44c-4f64-9bf3-3ab0db0a9bcd)
